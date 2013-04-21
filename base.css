@@ -1,0 +1,232 @@
+
+/**
+* BASE ZERO  CSS FRAMEWORK
+* -----------------------
+* DOWNLOAD: http://jeniux.dk/zero-base
+* AUTHOR: Jeniux Media
+* DESCRIPTION: 3kb Responsive CSS Grid System
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block }
+
+body { line-height:1 }
+
+ol, ul { list-style:none; margin-left: 20px;}
+
+blockquote, q { quotes:none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+a { text-decoration:none }
+
+img {
+	max-width:100%;
+	width:auto\9;
+	height:auto;
+	vertical-align:middle;
+	border:0;
+	-ms-interpolation-mode:bicubic
+}
+
+.base-wrap { margin:0 auto }
+
+.base-wrap { width:1196px }
+
+.zero {
+*zoom:1; margin-right:-20px }
+
+.zero:after {
+	content:'';
+	display:table;
+	clear:both
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1;
+  *zoom: 1;
+	padding:1em 0;
+	margin-left:20px
+}
+
+.one { width:78px }
+
+.two { width:176px }
+
+.three { width:274px }
+
+.four { width:372px }
+
+.five { width:470px }
+
+.six { width:568px }
+
+.seven { width:666px }
+
+.eight { width:764px }
+
+.nine { width:862px }
+
+.ten { width:960px }
+
+.eleven { width:1058px }
+
+.twelve { width:1156px }
+
+.show-mobile {
+display: none;  
+}
+@media only screen and (max-width :767px) {
+.hide-mobile {
+display:none
+}
+.show-mobile {
+display: block;  
+}
+.base-wrap {
+max-width:756px;
+min-width:320px;
+width:100%
+}
+.zero {
+margin-left:-20px;
+margin-right:20px
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+width:100%
+}
+}
+@media only screen and (min-width :768px) and (max-width :1024px) {
+.base-wrap {
+width:764px
+}
+.one {
+width:42px
+}
+.two {
+width:104px
+}
+.three {
+width:166px
+}
+.four {
+width:228px
+}
+.five {
+width:290px
+}
+.six {
+width:352px
+}
+.seven {
+width:414px
+}
+.eight {
+width:475px
+}
+.nine {
+width:537px
+}
+.ten {
+width:599px
+}
+.eleven {
+width:661px
+}
+.twelve {
+width:723px
+}
+}
+@media only screen and (min-width :1024px) and (max-width :1224px) {
+.base-wrap {
+width:1016px
+}
+.one {
+width:63px
+}
+.two {
+width:146px
+}
+.three {
+width:229px
+}
+.four {
+width:312px
+}
+.five {
+width:395px
+}
+.six {
+width:478px
+}
+.seven {
+width:561px
+}
+.eight {
+width:644px
+}
+.nine {
+width:727px
+}
+.ten {
+width:810px
+}
+.eleven {
+width:893px
+}
+.twelve {
+width:976px
+}
+}
+
+/*TEXT*/
+body, p, div {
+	color: #8c8c8c;
+	line-height: 1.4;
+}
+
+a { color: #09f; }
+
+a:hover { color: #3af; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4c4c4c;
+	margin: 1em 0;
+}
+h1 {font-size: 140%;}
+h2 {font-size: 130%;}
+h3 {font-size: 120%;}
+h4 {font-size: 110%;}
+h5 {font-size: 100%;}
+h6 {font-size: 90%;}
+p { margin: .5em 0; }
+
+
+embed, iframe, object, video { max-width: 100%; }
+
+
+
+
+
